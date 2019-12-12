@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def oxford_comma(array)
   if array.size == 1 
@@ -8,6 +8,6 @@ def oxford_comma(array)
   else 
     str = array.join(", ")
     last = str.pop()
-    
+    binding.pry
   end
 end
